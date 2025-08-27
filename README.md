@@ -7,13 +7,6 @@ Expanded healthcare transparency & analytics toolkit.
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![DOI](https://zenodo.org/badge/1045697101.svg)](https://doi.org/10.5281/zenodo.16967350)
 
-## Highlights of final changes
-- Added **HTTP connectors** for CMS/OpenPayments/openFDA with pagination and optional caching (`requests-cache`).
-- Added **payments analytics** to join OpenPayments to provider data and compute payments per provider.
-- React dashboard scaffold (`web/`) that calls the API endpoints.
-- Coverage reporting and CI workflow (pytest + coverage).
-- Zenodo metadata and GitHub release template for DOI minting.
-
 ## Quickstart
 ```bash
 python -m venv .venv
