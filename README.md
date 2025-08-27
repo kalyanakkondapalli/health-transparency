@@ -7,6 +7,25 @@ Expanded healthcare transparency & analytics toolkit.
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![DOI](https://zenodo.org/badge/1045697101.svg)](https://doi.org/10.5281/zenodo.16967350)
 
+## Summary:
+  health-transparency is an open-source toolkit for healthcare transparency and analytics. It provides reproducible pipelines to ingest, transform, and analyze healthcare datasets, including CMS, OpenPayments, and openFDA data. The package includes a FastAPI server to expose analytics endpoints, a scaffold React dashboard for visual exploration, and unit tests to ensure correctness.
+
+## Highlights:
+
+- Modular Python package with connectors, analytics, and API.
+
+- Supports caching and paginated ingestion for large datasets.
+
+- Designed for extensibility and community contributions.
+
+## Intended Use:
+
+- Research and analysis of healthcare spending and provider transparency.
+
+- Educational purposes for students and public health practitioners.
+
+- Base framework for building dashboards, reports, and analytics pipelines.
+
 ## Quickstart
 ```bash
 python -m venv .venv
