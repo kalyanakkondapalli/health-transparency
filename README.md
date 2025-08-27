@@ -1,6 +1,6 @@
 # health-transparency
 
-Final JOSS-ready release: expanded healthcare transparency & analytics toolkit.
+Expanded healthcare transparency & analytics toolkit.
 
 [![CI](https://img.shields.io/github/actions/workflow/status/yourusername/health-transparency/ci.yml?branch=main)](https://github.com/yourusername/health-transparency/actions)
 [![PyPI version](https://img.shields.io/pypi/v/health-transparency)]()
