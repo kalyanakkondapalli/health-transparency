@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "health-transparency: an open toolkit for healthcare transparency and analytics"
+version: "0.3.0"
+authors:
+  - family-names: Kondapalli
+    given-names: Kalyana Krishna
+    orcid: "0000-0000-0000-0000"
+date-released: 2025-08-27
+url: "https://github.com/yourusername/health-transparency"
+license: "MIT"

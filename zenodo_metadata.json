@@ -1,0 +1,19 @@
+{
+  "title": "health-transparency: an open toolkit for healthcare transparency and analytics",
+  "upload_type": "software",
+  "publication_date": "2025-08-27",
+  "creators": [
+    {
+      "name": "Kalyana Krishna Kondapalli",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "description": "Final JOSS-ready release with connectors, analytics, API, and dashboard scaffold.",
+  "keywords": [
+    "healthcare",
+    "transparency",
+    "data",
+    "analytics"
+  ],
+  "license": "MIT"
+}
