@@ -22,12 +22,6 @@ pip install -r requirements.txt
 pip install -e .[dev]
 uvicorn htapy.api.server:app --reload
 ```
-
-## Publishing & DOI (Zenodo)
-1. Create a GitHub release `v0.3.0`.
-2. Connect GitHub repository to Zenodo and enable DOI for releases.
-3. Create the GitHub release — Zenodo will mint a DOI snapshot.
-
 See `RELEASE_NOTES.md` and `zenodo_metadata.json` for the exact metadata to use.
 
 
