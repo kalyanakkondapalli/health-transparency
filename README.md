@@ -5,6 +5,7 @@ Final JOSS-ready release: expanded healthcare transparency & analytics toolkit.
 [![CI](https://img.shields.io/github/actions/workflow/status/yourusername/health-transparency/ci.yml?branch=main)](https://github.com/yourusername/health-transparency/actions)
 [![PyPI version](https://img.shields.io/pypi/v/health-transparency)]()
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)]()
+[![DOI](https://zenodo.org/badge/1045697101.svg)](https://doi.org/10.5281/zenodo.16967350)
 
 ## Highlights of final changes
 - Added **HTTP connectors** for CMS/OpenPayments/openFDA with pagination and optional caching (`requests-cache`).
