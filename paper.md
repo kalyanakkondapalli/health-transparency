@@ -20,6 +20,24 @@ keywords: [healthcare, transparency, analytics, open-data, reproducibility]
 - **Packaging & CI**: `pyproject.toml`, GitHub Actions CI running tests and coverage.
 - **Release metadata**: `zenodo_metadata.json` and `RELEASE_NOTES.md` to assist DOI minting.
 
+## Statement of Need
+
+Healthcare spending and provider transparency data are often fragmented across multiple federal and state sources (CMS, OpenPayments, openFDA). While these datasets are public, they are difficult to use reproducibly due to issues with pagination, caching, schema variation, and lack of standardized analytics workflows.
+
+Researchers, educators, and policymakers need accessible tools that simplify data ingestion, cleaning, and analysis while ensuring reproducibility. Existing packages either focus narrowly on a single dataset or do not provide an integrated pipeline for analysis, API exposure, and visualization.
+
+- health-transparency addresses this gap by providing:
+
+- Modular ingestion connectors with caching and pagination.
+
+- Analytics primitives to link payments with providers and compute metrics.
+
+- A FastAPI server exposing healthcare transparency endpoints.
+
+- A React dashboard scaffold for rapid exploration.
+
+This enables public health researchers, educators, and students to build reproducible workflows and dashboards for healthcare transparency without reinventing ingestion and analytics pipelines.
+
 ## Reproducibility
 
 Run tests with `pytest` and start the API as documented in README.
